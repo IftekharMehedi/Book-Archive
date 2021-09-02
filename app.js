@@ -10,7 +10,7 @@ const searchBook = () => {
 
     else {
         //load date url
-        const url = `http://openlibrary.org/search.json?q=${searchText}`;
+        const url = `https://openlibrary.org/search.json?q=${searchText}`;
 
         searchField.value = '';
 
